@@ -1,0 +1,96 @@
+.header {
+    background-color: #C0B283;
+    padding: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 50px;
+}
+.header img{
+    float:center;
+    height: 80px;
+    width: 120px;
+    padding:0;
+    display: inline-block;
+}
+.footer {
+    background: #2c2c2a;
+    padding-top: 50px;
+    color: #FFF;
+    height: 450px;
+    }
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    }
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #ffd133;
+    color:#101010;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+
+}
+.row {
+
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px;
+
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-8
+{
+    width:66.66666666%; 
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#footerf1{
+    color:#c6c6c6;    
+}
+p {
+    line-height:26px;
+    margin-bottom:20px;
+    font-size:18px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 26px;
+}
+.footer h2{ 
+    color: #FFF;
+    font-size: 26px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    letter-spacing: 0px;
+    text-rendering: optimizeSpeed;
+    line-height: 1.1;     }
